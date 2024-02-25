@@ -22,10 +22,10 @@ class _ConverterState extends State<Converter> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-          child: Text('Currency Converter'),
-        ),
+        leading: Text(''),
+        title: Text('     Currency Converter'),
       ),
+
       body: Padding(
         padding: const EdgeInsets.all(30),
         child: SingleChildScrollView(
