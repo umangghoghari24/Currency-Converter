@@ -23,7 +23,9 @@ class _ConverterState extends State<Converter> {
     return Scaffold(
       appBar: AppBar(
         leading: Text(''),
-        title: Text('     Currency Converter'),
+        title: Text('     Currency Converter',style: TextStyle(
+          fontWeight: FontWeight.bold,
+        ),),
       ),
 
       body: Padding(
