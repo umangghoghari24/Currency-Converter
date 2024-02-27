@@ -151,7 +151,7 @@ class _ConverterState extends State<Converter> {
                           IconButton(
                               onPressed: () {
                                 setState(() {
-                                  dollar = double.parse(rupeesconverter.text) * 0.016281;
+                                  dollar = double.parse(rupeesconverter.text) * 0.0163;
                                 });
                               },
                               icon: Icon(Icons.arrow_downward_outlined)),
@@ -232,7 +232,6 @@ class _ConverterState extends State<Converter> {
                         ],
                       ),
                       TextFormField(
-                        // controller: rupeesconverter,
                         keyboardType: TextInputType.none,
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.w500),
