@@ -156,14 +156,15 @@ class _ConverterState extends State<Converter> {
                                   dollar = double.parse(rupeesconverter.text) * 0.0163;
                                 });
                               },
-                              icon: Icon(Icons.arrow_downward_outlined)),
+                              icon: Icon(Icons.swap_vert_outlined,
+                                size: 30,),),
                           Text(
                             'Switch Currencies',
                             style: TextStyle(
                                 color: Colors.indigo,
                                 fontSize: 17,
                                 fontWeight: FontWeight.w500),
-                          )
+                          ),
                         ],
                       ),
                     ),
@@ -196,7 +197,6 @@ class _ConverterState extends State<Converter> {
                           ClipRRect(
                             borderRadius: BorderRadius.circular(5),
                             child: Image.network(
-                              // country.urlFlag!,
                               'https://img.freepik.com/premium-vector/canada-national-official-flag-symbol-banner-vector-illustration_622428-3853.jpg',
                               height: 30,
                               width: 50,
