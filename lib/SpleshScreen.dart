@@ -17,6 +17,11 @@ class _SpleshScreenState extends State<SpleshScreen> {
           children: [
             Image.network('https://img.freepik.com/free-vector/e-shopping-cartoon-web-icon-online-store-cashback-service-money-returning-financial-refund-idea-return-investment-internet-income-vector-isolated-concept-metaphor-illustration_335657-2734.jpg?w=740&t=st=1708845447~exp=1708846047~hmac=c6db24227d6fd6bcd6989524484b8b2e81b3caf0e0373ef2c2debba0103131ab',
             height: MediaQuery.of(context).size.height/1.3,),
+            Text('Wel Come to Currency Converter',style: TextStyle(
+                fontSize: 20.5,
+              fontWeight: FontWeight.bold
+            ),),
+            SizedBox(height: 40,),
             SizedBox(
               width: 300,
               height: 50,
