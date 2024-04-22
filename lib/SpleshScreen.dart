@@ -29,7 +29,7 @@ class _SpleshScreenState extends State<SpleshScreen> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>Converter()));
               },
                   child:
-                  Text('Next  >>>',
+                  Text('   Next  >>>',
                     style: TextStyle(color: Colors.white,
                         fontSize: 18),),
                 style: ElevatedButton.styleFrom(
@@ -37,7 +37,6 @@ class _SpleshScreenState extends State<SpleshScreen> {
                 ),
               ),
             ),
-            //     ext('Next'))
           ],
         ),
       ),
